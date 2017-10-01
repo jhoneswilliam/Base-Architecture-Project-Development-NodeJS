@@ -1,0 +1,22 @@
+{
+    "name": "simples-website-project",
+    "version": "1.0.0",
+    "private": false,
+    "scripts": {
+        "dev": "nodemon -r dotenv/config ./bin/www dotenv_config_path=./bin/.env.developer",
+        "homolog": "node -r dotenv/config ./bin/www dotenv_config_path=./bin/.env.homolog",
+        "start": "node -r dotenv/config ./bin/www dotenv_config_path=./bin/.env",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "body-parser": "~1.17.1",
+        "consign": "^0.1.6",
+        "cookie-parser": "~1.4.3",
+        "debug": "~2.6.3",
+        "dotenv": "^4.0.0",
+        "express": "~4.15.2",
+        "morgan": "~1.8.1",
+        "pug": "^2.0.0-rc.4",
+        "serve-favicon": "~2.4.2"
+    }
+}

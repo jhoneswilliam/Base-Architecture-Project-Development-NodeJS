@@ -1,0 +1,11 @@
+version: '3'
+services:
+  website:
+    container_name: simples-website-project    
+    ports:
+      - "80:80"
+    build:
+      context: ./
+      dockerfile: Dockerfile
+  
+
